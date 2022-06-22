@@ -106,13 +106,15 @@ app_license = "MIT"
 # Scheduled Tasks
 # ---------------
 
-# scheduler_events = {
-# 	"all": [
-# 		"naffhisapp.tasks.all"
-# 	],
-# 	"daily": [
-# 		"naffhisapp.tasks.daily"
-# 	],
+scheduler_events = {
+ 	"all": [
+ 		"naffhisapp.tasks.all"
+ 	],
+ 	"daily": [
+ 		"naffhisapp.tasks.daily"
+ 	],
+	"cron":{
+	"* * * * * ":["naffhisapp.tasks.cron"]}
 # 	"hourly": [
 # 		"naffhisapp.tasks.hourly"
 # 	],
@@ -122,7 +124,7 @@ app_license = "MIT"
 # 	"monthly": [
 # 		"naffhisapp.tasks.monthly"
 # 	]
-# }
+ }
 
 # Testing
 # -------
