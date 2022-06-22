@@ -107,14 +107,14 @@ app_license = "MIT"
 # ---------------
 
 scheduler_events = {
- 	"all": [
- 		"naffhisapp.tasks.all"
- 	],
+#	"all": [
+#		"naffhisapp.tasks.all"
+# 	],
  	"daily": [
  		"naffhisapp.tasks.daily"
  	],
-	"cron":{
-	"* * * * * ":["naffhisapp.tasks.cron"]}
+#	"cron":{
+#	"* * * * * ":["naffhisapp.tasks.cron"]}
 # 	"hourly": [
 # 		"naffhisapp.tasks.hourly"
 # 	],
