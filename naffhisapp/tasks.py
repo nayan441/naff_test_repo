@@ -47,3 +47,4 @@ def daily():
             frappe.db.commit()
         print("-"*40)
     print("-------------------------------Daily Cron---------------------------------")
+    print("-------------------------------Code Updated on Windows Machine---------------------------------")
