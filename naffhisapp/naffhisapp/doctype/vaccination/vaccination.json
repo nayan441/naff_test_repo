@@ -1,0 +1,73 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2022-06-23 14:45:57.845759",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "id",
+  "test_type",
+  "species",
+  "frequency",
+  "age",
+  "date"
+ ],
+ "fields": [
+  {
+   "fieldname": "test_type",
+   "fieldtype": "Select",
+   "label": "Test Type",
+   "options": "Brucell\nCovid\nF&MD\nRabies\nInfluenza"
+  },
+  {
+   "fieldname": "species",
+   "fieldtype": "Select",
+   "label": "Species",
+   "options": "Bovine\nCanine\nFeline\nSerpentine\nCaprine"
+  },
+  {
+   "fieldname": "frequency",
+   "fieldtype": "Int",
+   "label": "Frequency"
+  },
+  {
+   "fieldname": "age",
+   "fieldtype": "Int",
+   "label": "Age"
+  },
+  {
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "id",
+   "fieldtype": "Data",
+   "label": "Id"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2022-06-23 15:39:18.126326",
+ "modified_by": "Administrator",
+ "module": "Naffhisapp",
+ "name": "Vaccination",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC"
+}
