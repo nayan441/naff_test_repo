@@ -40,9 +40,9 @@ def daily():
             print(f"\n365 days frequency of Id: {i[0]} Bovine")
             new_doc.insert()
             frappe.db.commit()
-        if x.days % 132 ==0 and i[2]=="Feline":
+        if x.days % 182 ==0 and i[2]=="Feline":
             new_doc = frappe.get_doc({"doctype":"scheduler_event_doctype","content":f"132 days frequency of {i[0]} Feline"})
-            print(f"\n 132 days frequency of Id:{i[0]} Feline")
+            print(f"\n 182 days frequency of Id:{i[0]} Feline")
             new_doc.insert()
             frappe.db.commit()
         print("-"*40)
